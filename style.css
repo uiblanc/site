@@ -22,7 +22,7 @@ p{
   color: #99A9A9;
   font-family: 'Expletus Sans', sans-serif;
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 140%;
   letter-spacing: 0em;
   text-align: left;
@@ -36,9 +36,9 @@ a{
 .message{
   margin: 0 auto;
   position: absolute;
-  top: 55%;
-  -ms-transform: translateY(-55%);
-  transform: translateY(-55%);
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .copy{
   font-size: 0.8em;
@@ -71,8 +71,8 @@ footer{
   bottom: 0%;
 }
 .content {
-  min-height: calc(100vh - 112px);
+  min-height: calc(100vh - 70px);
 }
 .footer {
-  height: 56px;
+  height: 50px;
 }
