@@ -1,10 +1,10 @@
 body{
   font-family: 'Epilogue', sans-serif;
-  background-color: #333333;
+  background-color: #0C1A1A;
 }
 h1{
-  color: #ffffff !important;
-
+  color: #ffffff;
+  font-family: 'Epilogue', sans-serif;
 }
 h2{
   color: #ffffff;
@@ -14,7 +14,7 @@ h3{
   color: #ffffff;
   font-family: 'Epilogue', sans-serif;
 }
-p{
+.p{
   color: #ffffff;
   font-family: 'Epilogue', sans-serif;
 }
