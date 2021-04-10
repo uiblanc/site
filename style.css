@@ -15,7 +15,7 @@ h1{
   padding: 10px 0;
 }
 p{
-  color: #ffffff;
+  color: #6F8B8B;
   font-family: 'Epilogue', sans-serif;
   font-size: 1.1em;
   font-weight: 300;
@@ -23,31 +23,32 @@ p{
   letter-spacing: 0em;
   text-align: left;
   margin: 0 auto;
+  padding: 0;
 
 }
 a{
-  color: #10F0F0;
+  color: #fff;
 }
 .center{
-  margin: 0;
+  margin: 0 auto;
   position: absolute;
-  bottom: 40%;
-  -ms-transform: translateY(30%);
-  transform: translateY(30%);
+  top: 55%;
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
 }
 .copy{
   position:absolute;
   bottom:4%;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
-.logo{
-  background-image: url('/assets/logo.png')
+.mylogo{
+  background: url('assets/logo.png');
   width: 100px;
   height: 24px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .logo {
-    background-image: url('/assets/logo@2x.png');
+  .mylogo {
+    background-image: url('assets/logo@2x.png');
     background-size: 100px 24px;
   }
 }
